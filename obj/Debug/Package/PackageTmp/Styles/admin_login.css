@@ -1,0 +1,258 @@
+﻿@font-face {
+    font-family: 'fontMyriadProBold';
+    src: url('fontsMyriam/MyriadProBold.eot');
+    src: url('fontsMyriam/MyriadProBold.woff') format('woff'), url('fontsMyriam/MyriadProBold.ttf') format('truetype'), url('fontsMyriam/MyriadProBold.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'fontMyriadProRegular';
+    src: url('fontsMyriam/MYRIADPROREGULAR.eot');
+    src: url('fontsMyriam/MYRIADPROREGULAR.woff') format('woff'), url('fontsMyriam/MYRIADPROREGULAR.ttf') format('truetype');
+}
+
+
+body {
+    font-family: fontMyriadProRegular, Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+}
+
+.cssDivLogin {
+    margin-left: 30%;
+}
+
+.failureNotification {
+    font-size: 1.1em;
+    color: Red;
+}
+
+.cssTituloEncabezado {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 23px;
+    padding-left: 20%;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .cssTituloEncabezado {
+        color: #005568;
+        padding: 20px 0px 0px 0px;
+    }
+}
+
+.marco {
+    -webkit-box-shadow: -1px 7px 59px -5px rgba(0,85,104,0.61);
+    -moz-box-shadow: -1px 7px 59px -5px rgba(0,85,104,0.61);
+    box-shadow: -1px 7px 59px -5px rgba(0,85,104,0.61);
+    border: 1px solid #808080;
+    padding: 30px;
+    height: 100%;
+}
+
+.cssEncabezado {
+    background-color: #005568;
+    border-color: #005568;
+    /*padding-top: 20px;*/
+    height: 108px;
+}
+
+.cssImgEncabezado {
+    /*padding-left: 30px;*/
+    padding-left: 10%;
+    padding-top: 15px;
+}
+
+.cssPiePagina {
+    width: 100%;
+    background: url('Images/pie_fondo.jpg') repeat;
+    position: relative;
+    height: 50px;
+}
+
+.cssFontPage {
+    font-size: 16px;
+    font-family: fontMyriadProBold, Arial, Helvetica, sans-serif !important;
+    color: #005568;
+}
+
+.cssDivSubTittle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    border: solid 1px #005568;
+    border-radius: 25px !important;
+    background: #005568;
+    font-weight: bolder !important;
+    color: white;
+    width: 140px;
+    /*font-weight : bold;
+	font-size : 11px;
+	padding: 4px;
+	height: 28px;*/
+}
+
+.buttonAjustable {
+    border: solid 1px #005568;
+    border-radius: 20px !important;
+    background: #005568;
+    font-weight: bolder !important;
+    color: white;
+}
+
+.buttonAjustableVerde {
+    border: solid 1px #005568;
+    border-radius: 20px !important;
+    background: #54b948;
+    font-weight: bolder !important;
+    color: white;
+}
+
+.login {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    border: 1px solid #cccccc;
+    width: 60%;
+    /*background: #F1F3F5;*/
+}
+
+.loginSoporte {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    width: 60%;
+    /*background: #F1F3F5;*/
+}
+
+.login-text {
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-top: 13px;
+}
+
+.inputlabel {
+    font-weight: bold;
+    text-align: center;
+    height: 14px;
+}
+
+.inputbox {
+    width: 150px;
+    margin: 0 0 1em 0;
+    border: 1px solid #cccccc;
+}
+
+.clr {
+    clear: both;
+}
+
+.ctr {
+    text-align: center;
+    width: 156px;
+    height: 106px;
+}
+
+.version {
+    font-size: 0.8em;
+}
+
+
+/*  Estilos Grid*/
+.bg2 {
+    background-color: #CACACA;
+}
+
+.bg3 {
+    background-color: #005568;
+}
+
+.bg4 {
+    background-color: #F0F0F0;
+}
+
+.bg5 {
+    background-color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.cssFontHeaderGrid {
+    font-weight: bolder;
+    color: white;
+}
+
+.bg5 table {
+    background-color: #f5f5f5;
+}
+
+    .bg5 table > tbody > tr > td > span {
+        font-weight: bolder;
+        position: relative;
+        float: left;
+        padding: 6px 10px;
+        line-height: 1.42857143;
+        text-decoration: none;
+        z-index: 2;
+        color: #5a91dc;
+        background-color: #f5f5f5;
+        border-right: 1px solid #e8e8e8;
+    }
+
+    .bg5 table > tbody > tr > td > a {
+        font-weight: bolder;
+        position: relative;
+        float: left;
+        padding: 6px 10px;
+        line-height: 1.42857143;
+        text-decoration: none;
+        z-index: 2;
+        color: #aea79f;
+        background-color: #f5f5f5;
+        border-right: 1px solid #e8e8e8;
+    }
+
+.cssModalDialog {
+    padding: 10px;
+    position: fixed;
+    width: 30%;
+    height: 20%;
+    top: 40%;
+    left: 40%;
+    border: 2px solid #cccccc;
+    /*color: #cccccc;*/
+    color: #000000;
+    background-color: #ffffff !important;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+}
+
+.input-sm, .input-group-sm > .form-control, .input-group-sm > .input-group-addon, .input-group-sm > .input-group-btn > .btn {
+    border-radius: 0px !important;
+}
+
+.input-group-addon {
+    padding: 5px 20px !important;
+}
+
+
+.cssLabelBusqueda {
+    font-size: 12px !important;
+    /*font-weight: 100 !important;*/
+}
+
+
+.cssLessPadding {
+    padding: 5px !important;
+}
+
+.cssLessPaddingTxt {
+    padding: 5px 10px !important;
+    text-align: center;
+}
+
+.cssBordesBusqueda {
+    /*border: 1px solid #ccc;*/
+}
